@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "noEmitOnError": true,
+        "lib": ["dom", "ES6"],
+        // "target": "es5",
+        // "watch": true,
+    }
+}
