@@ -60,3 +60,21 @@ git add .
 git commit -m 'remove ignored file'
 git push {remote} {branch}
 ```
+
+### repository 동기화
+
+```
+git remote add upstream https://github.com/owner/original_repo.git
+```
+
+### 원본 저장소의 최신 내용 받아오기
+
+```
+git fetch upstream
+```
+
+### 받아온 내역을 로컬 저장소로 병합
+```
+git mergy upstram/master
+```
+이거 다음엔 푸쉬해주기.
